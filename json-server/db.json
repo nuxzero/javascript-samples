@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "fake API",
+      "author": "nux"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    [
+      {
+        "id": "CD3003-105",
+        "name": "Air Jordan 1 Mid",
+        "description": "The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering OG fans a look at how far the Jordan brand has come since 1985.\n- Shown: Black/White/Noble Red\n- Style: 554724-066\n",
+        "price": 115,
+        "currency": "usd",
+        "thumb_image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/z3afmglwa3q93wjt3ksh/air-jordan-1-mid-shoe-1zMCFJ.jpg",
+        "large_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/qb2ry1p1iv2vqrdfq4oa/air-jordan-1-mid-shoe-1zMCFJ.jpg"
+      },
+      {
+        "id": "CD3003-103",
+        "name": "Nike Air Force 1 '07",
+        "description": "Hoops in the park, Sunday BBQs and sunshine. The radiance lives on in the Nike Air Force 1 ’07, the b-ball OG that puts a fresh spin on what you know best: crisp leather, stitched overlays in classic all-white and the perfect amount of flash to make you shine.\n- Shown: White/White\n- Style: 315122-111\n",
+        "price": 90.0,
+        "currency": "usd",
+        "thumb_image": "https://c.static-nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/jomszuqr8gw3h18xhpro/air-force-1-07-mens-shoe-JkTGzADv.jpg",
+        "large_image": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/gsuin11ptg5qgktmzoat/air-force-1-07-mens-shoe-JkTGzADv.jpg"
+      },
+      {
+        "id": "CD3003-104",
+        "name": "Nike Cortez Basic",
+        "description": "The Nike Cortez Basic is inspired by the 1972 original. Although it has gone through many incarnations, this version features leather in the upper for a return to the style icon's roots.\n- Shown: White/Varsity Royal/Varsity Red\n- Style: 819719-103\n",
+        "price": 59.97,
+        "currency": "usd",
+        "thumb_image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/x55aeh2ax0ampnzqj64x/cortez-basic-shoe-345sdw.jpg",
+        "large_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/hjiors7jvxoqipamz6z9/cortez-basic-shoe-345sdw.jpg"
+      },
+      {
+        "id": "CD4366-100",
+        "name": "Nike Air Force 1 React",
+        "description": "Refresh your look and step into a new AF1 world with the Nike Air Force 1 React. It fuses modern design with iconic b-ball style for a big, bold look. The oversized Swoosh, large \"AIR\" on the midsole and new sole pattern let you express your modern world while Nike React technology adds exceptional underfoot comfort.\n- Shown: White/University Red/Black\n- Style: CD4366-100\n",
+        "price": 120.0,
+        "currency": "usd",
+        "thumb_image": "https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/i1-fe0b0aa8-5a11-4839-b1ae-28358239e214/air-force-1-react-mens-shoe-b7HKxL.jpg",
+        "large_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/i1-e17d75fb-c3e5-4ed4-8a18-16eeac824d73/air-force-1-react-mens-shoe-b7HKxL.jpg"
+      },
+      {
+        "id": "CK5692-600",
+        "name": "Air Jordan 3 Retro SE",
+        "description": "One of the most recognizable shoes in the AJ collection, the Air Jordan 3 Retro features lightweight, visible cushioning just like the original from '88. Signature details and materials celebrate the game-changing icon.\n- Shown: Fire Red/Cement Grey/Black/Fire Red\n- Style: CK5692-600\n",
+        "price": 200.0,
+        "currency": "usd",
+        "thumb_image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-8334fb00-7956-46b7-b74e-ae0d87915a74/air-jordan-3-retro-se-mens-shoe-jzW36H.jpg",
+        "large_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/i1-da46a9c8-89d0-4d80-81a2-6a3a6db55128/air-jordan-3-retro-se-mens-shoe-jzW36H.jpg"
+      },
+      {
+        "id": "CD3003-102",
+        "name": "Jordan \"Why Not?\" Zer0.3",
+        "description": "One of the game's fiercest competitors, triple-double dynamo Russell Westbrook has the motor, muscle and mentality to match his fearlessness—with the stats to back it up. The Jordan \"Why Not?\" Zer0.3 is tuned for Russ' on-court chaos, featuring a midfoot strap for lock-in and a large cushioning unit to help drive him hard and fast toward the basket.\n- Shown: White/Racer Pink/Ghost Green/Black\n- Style: CD3003-102\n",
+        "price": 130.0,
+        "currency": "usd",
+        "thumb_image": "https://images.nike.com/is/image/DotCom/CD3003_102?$NIKE_PWP_GRAY$&wid=420&hei=420",
+        "large_image": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/i1-51432200-ccc1-4394-8974-f437622bbfbb/jordan-why-not-zer03-mens-basketball-shoe-LJCLGj.jpg"
+      }
+    ]
+  ]
+}
