@@ -3,13 +3,13 @@ module.exports = {
     browser: false,
     es2021: true,
   },
-  extends: ["airbnb-base", "plugin:jest/all"],
+  extends: ["airbnb-base", "plugin:jest/all", "plugin:prettier/recommended"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 13,
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "jest", "import"],
+  plugins: ["@typescript-eslint", "jest", "import", "prettier"],
   rules: {
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
@@ -17,6 +17,7 @@ module.exports = {
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
     "jest/require-hook": "off",
+    "prettier/prettier": "error",
     "import/no-unresolved": "error",
     "import/extensions": [
       "error",
