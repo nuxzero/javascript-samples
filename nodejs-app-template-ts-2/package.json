@@ -7,9 +7,9 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon --exec ts-node ./src/index.ts --mode development",
     "test": "jest",
-    "test:watch": "yarn run test -- --watch",
+    "test:watch": "yarn run test --watch",
+    "test:coverage": "yarn run test --coverage",
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
-    "format": "prettier -w .",
     "build": "tsc -p tsconfig.json",
     "clean": "rm -rf dist build",
     "ts-node": "ts-node"
