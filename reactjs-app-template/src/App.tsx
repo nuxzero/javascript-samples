@@ -1,18 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { add } from './services/calculator';
 
+// eslint-disable-next-line func-names
 const App = function () {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit
-          {' '}
-          <code>src/App.tsx</code>
-          {' '}
-          and save to reload.
+          Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,7 +18,7 @@ const App = function () {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React ${add(1, 2)}
         </a>
       </header>
     </div>
