@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { add } from './services/calculator';
 
@@ -8,7 +7,6 @@ const App = function () {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -18,7 +16,7 @@ const App = function () {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React ${add(1, 2)}
+          Learn React {add(1, 2)}
         </a>
       </header>
     </div>
