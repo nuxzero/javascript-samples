@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import { add } from './services/calculator';
 
-// eslint-disable-next-line func-names
-const App = function () {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
