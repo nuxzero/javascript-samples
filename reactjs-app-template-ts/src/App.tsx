@@ -1,7 +1,7 @@
 import React from 'react';
 // import './App.css';
 import { add } from './services/calculator';
-import SampleComponent from './SampleComponent';
+import SampleComponent from './components/SampleComponent';
 
 const App = () => {
   return (
