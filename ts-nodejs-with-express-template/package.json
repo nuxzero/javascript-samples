@@ -1,0 +1,26 @@
+{
+  "name": "ts-nodejs-with-express-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsx watch --clear-screen=false src/index.ts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.5",
+    "typescript": "^5.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
