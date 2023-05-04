@@ -1,4 +1,4 @@
-# NodeJS template with typescript/expressjs
+# NodeJS template with typescript
 
 ## Prerequisites
 
@@ -15,12 +15,6 @@ Install all dependencies.
 $ pnpm install
 ```
 
-Build for production.
-
-```sh
-$ pnpm build
-```
-
 Lint check.
 
 ```sh
@@ -31,4 +25,12 @@ Run development command line.
 
 ```sh
 $ pnpm dev
+```
+
+Run unit tests.
+
+```sh
+$ pnpm test
+# watch mode
+$ pnpm test:watch
 ```
