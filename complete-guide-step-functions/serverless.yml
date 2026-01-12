@@ -1,0 +1,27 @@
+service: first-step-functions
+frameworkVersion: '3'
+
+plugins:
+  - serverless-step-functions
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    handler: handler.hello
+
+stepFunctions:
+  stateMachines:
+    hello:
+      name: hello
+      definition:
+        Comment: hello world example
+        StartAt: SayHello
+        States:
+          SayHello:
+            Type: Task
+            Resource:
+              Fn::GetAll: [hello, Arn]
+              
